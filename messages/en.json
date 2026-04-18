@@ -1,0 +1,917 @@
+{
+  "shared": {
+    "nav": {
+      "home": "Home",
+      "disasters": "Nuclear disasters",
+      "react": "Reactions",
+      "radiation": "Radiation",
+      "comparison": "Comparison",
+      "media": "Media",
+      "challenges": "Challenges",
+      "references": "References"
+    },
+    "common": {
+      "learnMore": "Learn More",
+      "myth": "Myth",
+      "truth": "Truth",
+      "showTruth": "Learn the Truth",
+      "correctConcept": "Correcting concepts",
+      "weapon": "Nuclear bomb",
+      "reactor": "Nuclear reactor",
+      "pause": "Pause",
+      "play": "Play"
+    },
+    "metadata": {
+      "title": "Nuclear Energy ≠ Nuclear Bomb | Interactive Experience",
+      "description": "An immersive interactive experience to understand the fundamental difference between peaceful nuclear energy and nuclear weapons.",
+      "keywords": "nuclear energy, nuclear reactor, nuclear bomb, education, science"
+    },
+    "cta": {
+      "title": "Knowledge is the First Step",
+      "description": "Now you know the difference. Share this knowledge with others and contribute to building a clean and sustainable energy future.",
+      "button": "Share the Experience",
+      "copyLink": "Copy Link",
+      "goChallenges": "Start Challenge"
+    },
+    "footer": {
+      "brand": "Nuclear Energy for Peace",
+      "credits": "An interactive educational experience to spread scientific awareness",
+      "formula": {
+        "nuclear": "Nuclear Energy",
+        "bomb": "Nuclear Bomb"
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "myth": {
+        "title": "Nuclear Bomb = Nuclear Energy",
+        "subtitle": "Both originate from the same idea and foundation—the difference lies only in the method of application, and there is no fundamental difference between them except in form.",
+        "weapon": {
+          "tag": "Nuclear Bomb",
+          "explanation": "An image similar to a nuclear bomb",
+          "description": "It can destroy and devastate entire cities within seconds, with immense power that cannot be stopped or resisted"
+        },
+        "reactor": {
+          "tag": "Nuclear Reactor",
+          "explanation": "An image similar to a nuclear reactor",
+          "description": "It resembles a nuclear bomb in its impact and can cause the same massive destruction, as it is fundamentally based on the same principle"
+        }
+      },
+      "truth": {
+        "title": "There is a vast difference that cannot be ignored",
+        "subtitle": "A nuclear bomb is not like a nuclear reactor, and there are very significant differences between them in many areas, most notably:",
+        "items": [
+          {
+            "title": "Reactions",
+            "description": "Learn how nuclear reactions occur in both reactors and bombs."
+          },
+          {
+            "title": "Radiation",
+            "description": "Learn more about the nature of radiation and how it differs between nuclear reactors and nuclear bombs."
+          },
+          {
+            "title": "Role",
+            "description": "Explore the role of both nuclear reactors and nuclear bombs and what the difference is between them in purpose"
+          },
+          {
+            "title": "Mechanism",
+            "description": "Distinguish between myth and reality in how nuclear reactors and nuclear bombs work."
+          }
+        ],
+        "more": "Learn more"
+      }
+    },
+    "comparison": {
+      "badge": "Comparison",
+      "title": "Revealing the Differences",
+      "description": "A comprehensive detailed comparison that clearly illustrates the differences and gaps between nuclear reactors and nuclear bombs, in terms of operating method, purpose, control level, and the results produced by each.",
+      "slider": {
+        "vs": "vs.",
+        "title": "Detailed Comparison",
+        "description": "Move the slider to explore the fundamental differences between peaceful and military use of nuclear energy",
+        "aspects": {
+          "reactorLabel": "Reactor",
+          "bombLabel": "Bomb"
+        },
+        "reactor": "Nuclear Reactor",
+        "bomb": "Nuclear Bomb",
+        "peaceful": "Peaceful Energy",
+        "weapon": "Weapon",
+        "drag": "Drag to Compare",
+        "items": [
+          {
+            "label": "Reaction Speed",
+            "reactor": {
+              "value": "Slow and controlled",
+              "description": "Reaction takes minutes to hours"
+            },
+            "bomb": {
+              "value": "Instant",
+              "description": "Occurs in fractions of a second"
+            }
+          },
+          {
+            "label": "Enrichment Level",
+            "reactor": {
+              "value": "3-5%",
+              "description": "Low Enriched Uranium"
+            },
+            "bomb": {
+              "value": "+90%",
+              "description": "Highly Enriched Uranium"
+            }
+          },
+          {
+            "label": "Purpose",
+            "reactor": {
+              "value": "Energy Generation",
+              "description": "Clean electricity for millions"
+            },
+            "bomb": {
+              "value": "Destruction",
+              "description": "Weapon of mass destruction"
+            }
+          },
+          {
+            "label": "Control",
+            "reactor": {
+              "value": "Control Rods",
+              "description": "Can be stopped at any time"
+            },
+            "bomb": {
+              "value": "Unstoppable",
+              "description": "Uncontrollable chain reaction"
+            }
+          }
+        ]
+      },
+      "differences": [
+        {
+          "aspect": "Enrichment Level",
+          "aspectEn": "Enrichment Level",
+          "reactor": "3-5%",
+          "bomb": "90%+",
+          "reactorDetail": "Sufficient for controlled reaction",
+          "bombDetail": "Necessary for explosive reaction"
+        },
+        {
+          "aspect": "Reaction Speed",
+          "aspectEn": "Reaction Speed",
+          "reactor": "Seconds to minutes",
+          "bomb": "Microseconds",
+          "reactorDetail": "Slow and controlled",
+          "bombDetail": "Instant and explosive"
+        },
+        {
+          "aspect": "Purpose",
+          "aspectEn": "Purpose",
+          "reactor": "Sustainable heat",
+          "bomb": "Explosive energy",
+          "reactorDetail": "To generate electricity",
+          "bombDetail": "For destruction"
+        },
+        {
+          "aspect": "Control",
+          "aspectEn": "Control",
+          "reactor": "Stoppable",
+          "bomb": "Unstoppable",
+          "reactorDetail": "Control rods and safety systems",
+          "bombDetail": "Irreversible reaction"
+        }
+      ],
+      "reasons": {
+        "title": "Why is the transformation impossible?",
+        "subtitle": "Four definitive scientific and engineering reasons",
+        "items": [
+          {
+            "title": "Low Enrichment",
+            "description": "Uranium in reactors is enriched to only 3-5%, while a bomb needs 90%+ U-235",
+            "detail": "The reaction cannot reach the nuclear explosion stage with this low percentage"
+          },
+          {
+            "title": "Absence of Instant Critical Mass",
+            "description": "Reactor fuel is distributed in separate and spaced rods, preventing instant critical mass",
+            "detail": "A bomb requires assembling critical mass in fractions of a second"
+          },
+          {
+            "title": "Counter-Engineering Design",
+            "description": "The reactor is designed to automatically slow the reaction when temperature increases (Negative Feedback Coefficient)",
+            "detail": "Increased heat reduces reaction efficiency instead of increasing it"
+          },
+          {
+            "title": "Redundant Safety Systems",
+            "description": "Control rods, emergency cooling, and containment buildings prevent any catastrophic scenario",
+            "detail": "Even in the worst accidents, a nuclear explosion does not occur"
+          }
+        ],
+        "summaryLabel": "Conclusion:",
+        "enrichment": {
+          "label": "U-235 Percentage:",
+          "reactor": "Reactor: 5%",
+          "bomb": "Bomb: 90%+"
+        }
+      },
+      "myths": {
+        "title": "Myths and Facts",
+        "description": "Click on each card to reveal the scientific truth behind the most famous misconceptions about nuclear energy",
+        "labels": {
+          "myth": "Myth",
+          "fact": "Fact",
+          "clickToReveal": "Click to reveal truth",
+          "clickToReturn": "Click to return",
+          "explanation": "Explanation",
+          "knowledgeWeapon": "Knowledge is the weapon against unjustified fear"
+        },
+        "items": [
+          {
+            "myth": "Nuclear reactors can explode like a nuclear bomb",
+            "fact": "Physically impossible",
+            "detail": "Uranium concentration in reactors (3-5%) is much lower than required for a nuclear explosion (+90%)"
+          },
+          {
+            "myth": "Nuclear radiation causes superpowers/mutations",
+            "fact": "Low radiation is safe",
+            "detail": "We are exposed to radiation daily from the sun and soil. Reactors are protected by multiple layers of insulation"
+          },
+          {
+            "myth": "Nuclear waste cannot be disposed of",
+            "fact": "Stored safely",
+            "detail": "Waste is stored in special containers underground, and its volume is very small compared to coal"
+          },
+          {
+            "myth": "Chernobyl and Fukushima were nuclear explosions",
+            "fact": "They were not nuclear explosions",
+            "detail": "They were steam and hydrogen explosions resulting from human error and natural disasters"
+          },
+          {
+            "myth": "Nuclear energy is the most dangerous energy source",
+            "fact": "Statistically the safest",
+            "detail": "Deaths per terawatt-hour: Nuclear 0.03, Coal 24.6, Oil 18.4"
+          },
+          {
+            "myth": "Nuclear energy contributes to global warming",
+            "fact": "Near-zero emissions",
+            "detail": "Nuclear energy does not produce CO2 during operation, similar to solar and wind"
+          }
+        ]
+      }
+    },
+    "reaction": {
+      "myth": {
+        "title": "The nuclear reactor reacts like a nuclear bomb",
+        "subtitle": "The nuclear reactor reacts in a way similar to a nuclear bomb, but controlling the reactions inside the reactor is very difficult and almost impossible."
+      },
+      "truth": {
+        "title": "Not all nuclear reactions are like a nuclear bomb",
+        "subtitle": "Nuclear reactions differ in their nature, as not all of them lead to an explosion like a nuclear bomb, but many of them occur in a controlled and safe manner.",
+        "reactorFission": "Fission rate in a nuclear reactor",
+        "weaponFission": "Fission rate in a nuclear bomb",
+        "reactorSimulation": {
+          "barTitle": "Nuclear Reactor Simulation",
+          "panel": {
+            "title": "Control Panel",
+            "neutrons": "Neutron Intensity",
+            "rods": "Insert Control Rods",
+            "stability": "Stability Level"
+          },
+          "status": {
+            "title": "Reactor Status",
+            "stable": "Stable",
+            "unstable": "Warning: Unstable State!"
+          },
+          "metrics": {
+            "title": "Metrics",
+            "temp": "Temperature"
+          },
+          "info": {
+            "title": "Information",
+            "danger": "Danger!",
+            "stableDesc": "In a real reactor, control rods absorb neutrons to maintain a stable chain reaction.",
+            "unstableDesc": "Insert control rods to absorb excess neutrons and avoid a meltdown!"
+          },
+          "explosion": {
+            "title": "Reactor Explosion!",
+            "desc": "Control over the nuclear reaction was lost. This is what happens when neutrons are not properly controlled.",
+            "reset": "Try Again"
+          }
+        },
+        "causeOfConfusion": {
+          "barTitle": "Reason for confusion: shared physical properties",
+          "title": "Shared Physical Basis",
+          "description": "Different nuclear reactions are based on the same physical principles, which makes them similar in general principles despite the difference in results and applications.",
+          "energyEquation": {
+            "title": "Einstein's Equation",
+            "explanation": "Energy = Mass × the square of the speed of light",
+            "detail": "This equation explains how a very small mass transforms into massive energy in nuclear reactions"
+          }
+        },
+        "einsteinExamples": {
+          "barTitle": "Examples of Einstein's Equation in Nuclear Energy",
+          "concepts": {
+            "fission": {
+              "tag": "Energy release",
+              "title": "Nuclear Fission",
+              "subtitle": "Nuclear Fission",
+              "description": "The process of splitting a heavy atomic nucleus (such as Uranium-235) into two lighter nuclei upon absorbing a neutron, releasing massive energy and additional neutrons.",
+              "details": [
+                "A Uranium-235 nucleus absorbs a neutron",
+                "The nucleus becomes unstable and vibrates",
+                "It splits into two smaller nuclei + 2-3 new neutrons",
+                "A small amount of mass converts to energy (E=mc²)"
+              ]
+            },
+            "chain": {
+              "tag": "Equation meaning",
+              "title": "Chain Reaction",
+              "subtitle": "Chain Reaction",
+              "description": "The neutrons released from the fission of one nucleus can cause fission in other nuclei, creating a series of reactions.",
+              "details": [
+                "One neutron splits one nucleus",
+                "2-3 new neutrons are released",
+                "Each neutron can split another nucleus",
+                "The reaction doubles exponentially or is controlled"
+              ]
+            },
+            "critical": {
+              "tag": "Nuclear Bombs",
+              "title": "Critical Mass",
+              "subtitle": "Critical Mass",
+              "description": "The minimum amount of fissile material needed to sustain a self-acting chain reaction without an external neutron source.",
+              "details": [
+                "Depends on the type and purity of the material",
+                "Uranium-235: ~52 kg (sphere)",
+                "Plutonium-239: ~10 kg (sphere)",
+                "Shape and density affect the value"
+              ]
+            }
+          },
+          "keyPoint": {
+            "title": "Key Point",
+            "description": "The fundamental difference between a reactor and a bomb lies in the speed of reaction and control: a reactor slows down and controls the reaction to produce sustainable heat, while a bomb accelerates the reaction explosively within fractions of a second."
+          }
+        }
+      }
+    },
+    "disasters": {
+      "myth": {
+        "title": "The nuclear reactor can cause a nuclear explosion",
+        "subtitle": "Operating a nuclear reactor can lead to an explosion similar to a nuclear bomb, and the resulting energy is completely uncontrollable.",
+        "timeline": [
+          {
+            "place": "Chernobyl",
+            "subtitle": "This is one of the disasters caused by nuclear reactors, and it resulted in the destruction of the surrounding ecosystem.",
+            "tip": "The explosion was exactly like a bomb"
+          },
+          {
+            "place": "Fukushima",
+            "subtitle": "Fukushima was no less dangerous than what happened in Chernobyl; it is considered one of the most severe disasters caused by nuclear reactors.",
+            "tip": "The explosion was exactly like a bomb"
+          }
+        ]
+      },
+      "truth": {
+        "title": "A reactor cannot cause a nuclear explosion",
+        "subtitle": "Scientifically, operating a nuclear reactor cannot cause an explosion like a nuclear bomb; fundamental differences in design and operation make this impossible.",
+        "timeline": [
+          {
+            "name": "Chernobyl",
+            "location": "Ukraine (Soviet Union)",
+            "causeLabel": "Cause",
+            "cause": "Human error during a safety test",
+            "actualEventLabel": "What actually happened",
+            "actualEvent": "Steam explosion and fire in the reactor core",
+            "casualtiesLabel": "Casualties",
+            "casualties": "31 immediate deaths, long-term radiation effects",
+            "keyFact": "It was not a nuclear explosion"
+          },
+          {
+            "name": "Fukushima",
+            "location": "Japan",
+            "causeLabel": "Cause",
+            "cause": "Earthquake and tsunami disabled cooling systems",
+            "actualEventLabel": "What actually happened",
+            "actualEvent": "Hydrogen explosions in containment buildings",
+            "casualtiesLabel": "Casualties",
+            "casualties": "No direct deaths from radiation",
+            "keyFact": "It was not a nuclear explosion"
+          }
+        ],
+        "safteySystem": {
+          "barTitle": "The possibility of nuclear disasters happening again is almost impossible with the presence of:",
+          "items": [
+            {
+              "title": "Multiple Barriers",
+              "description": "5 barriers between the fuel and the external environment"
+            },
+            {
+              "title": "Emergency Cooling",
+              "description": "Multiple redundant backup cooling systems"
+            },
+            {
+              "title": "Automatic Shutdown",
+              "description": "Shuts down automatically upon any malfunction"
+            }
+          ]
+        }
+      }
+    },
+    "radiation": {
+      "myth": {
+        "title": "All nuclear radiation is deadly and toxic",
+        "subtitle": "All nuclear radiation is inherently deadly and toxic, and any exposure to it will inevitably cause direct and severe harm."
+      },
+      "truth": {
+        "title": "Did you know: Some types of nuclear radiation are very useful",
+        "subtitle": "Did you know that certain types of nuclear radiation have beneficial uses in fields such as medicine and industry when properly controlled?",
+        "correctingConcept": {
+          "weapon": "Nuclear bomb radiation: harmful and deadly",
+          "reactor": "Nuclear reactor radiation: beneficial and safe under controls"
+        },
+        "safetyUsage": {
+          "barTitle": "Safe uses of nuclear energy"
+        },
+        "safetyRules": {
+          "barTitle": "Radiation Protection Rules",
+          "items": [
+            {
+              "title": "Time",
+              "titleEn": "Time",
+              "description": "Reduce exposure time to radiation",
+              "detail": "The less time, the lower the dose"
+            },
+            {
+              "title": "Distance",
+              "titleEn": "Distance",
+              "description": "Increase distance from the source",
+              "detail": "Dose decreases with the square of the distance"
+            },
+            {
+              "title": "Shielding",
+              "titleEn": "Shielding",
+              "description": "Use protective materials",
+              "detail": "Lead, concrete, and water"
+            }
+          ]
+        },
+        "environment": {
+          "barTitle": "Environmental Impact",
+          "description": "Carbon dioxide emissions per kilowatt-hour of electricity produced",
+          "chartTitle": "CO2 Emissions (g/kWh)",
+          "sources": {
+            "coal": "Coal",
+            "oil": "Oil",
+            "gas": "Natural Gas",
+            "solar": "Solar",
+            "wind": "Wind",
+            "nuclear": "Nuclear"
+          },
+          "insights": {
+            "emissions": {
+              "title": "High Energy, Low Emissions",
+              "text": "Nuclear energy produces electricity at the same emission level as renewable energy, but provides constant power around the clock regardless of weather."
+            },
+            "land": {
+              "title": "Small Land Footprint",
+              "text": "One nuclear plant produces energy equivalent to thousands of hectares of solar panels or hundreds of wind turbines."
+            },
+            "future": {
+              "title": "Green Future",
+              "text": "Nuclear energy is essential to achieve carbon neutrality. It is the bridge between fossil fuels and a sustainable future."
+            }
+          }
+        },
+        "peacefulUses": {
+          "items": {
+            "medicine": {
+              "title": "Medicine",
+              "description": "Diagnosis and treatment of diseases using radioactive isotopes",
+              "examples": [
+                "PET Scan imaging",
+                "Radiation cancer therapy",
+                "Sterilization of medical tools",
+                "Thyroid function tests"
+              ]
+            },
+            "agriculture": {
+              "title": "Agriculture",
+              "description": "Improving crops and food preservation",
+              "examples": [
+                "Developing resistant plant strains",
+                "Food preservation by irradiation",
+                "Agricultural pest control",
+                "Groundwater tracking"
+              ]
+            },
+            "industry": {
+              "title": "Industry",
+              "description": "Quality inspection and industrial process improvement",
+              "examples": [
+                "Inspecting welds and pipes",
+                "Thickness and density measurement",
+                "Tracking corrosion in facilities",
+                "Material analysis"
+              ]
+            },
+            "research": {
+              "title": "Scientific Research",
+              "description": "Exploring secrets of the universe and matter",
+              "examples": [
+                "Studying atomic structure",
+                "Carbon-14 dating of fossils",
+                "Nuclear physics research",
+                "Developing new materials"
+              ]
+            },
+            "space": {
+              "title": "Space",
+              "description": "Powering spacecraft",
+              "examples": [
+                "Spacecraft batteries (RTGs)",
+                "Planetary exploration rovers",
+                "Deep space satellites",
+                "Future space stations"
+              ]
+            },
+            "desalination": {
+              "title": "Water Desalination",
+              "description": "Providing fresh water for arid regions",
+              "examples": [
+                "Massive desalination plants",
+                "Sustainable energy for desalination",
+                "Reducing water costs",
+                "Solving global water crisis"
+              ]
+            }
+          },
+          "stats": [
+            {
+              "value": "+440",
+              "label": "Commercial Nuclear Reactors"
+            },
+            {
+              "value": "10%",
+              "label": "Of World Electricity"
+            },
+            {
+              "value": "50+",
+              "label": "Countries Using Nuclear Energy"
+            },
+            {
+              "value": "0",
+              "label": "CO2 Emissions During Operation"
+            }
+          ]
+        }
+      }
+    },
+    "media": {
+      "title": "Media and Misconceptions",
+      "subtitle": "How Media Outlets Affect Our Understanding",
+      "badge": "Role of Media",
+      "description": "How the media contributed to forming a distorted image of nuclear energy, and how we can correct these perceptions",
+      "misconceptions": {
+        "influence": {
+          "title": "How does the media affect our perceptions?",
+          "labels": {
+            "examples": "Common Examples",
+            "impact": "Impact"
+          },
+          "items": [
+            {
+              "title": "Movies and Series",
+              "description": "Portraying nuclear energy always in a catastrophic light",
+              "examples": [
+                "Exaggerated nuclear explosions",
+                "Fictional mutations and transformations",
+                "End-of-the-world scenarios"
+              ],
+              "impact": "Creates a subconscious link between nuclear and destruction"
+            },
+            {
+              "title": "News Media",
+              "description": "Focusing on accidents and ignoring achievements",
+              "examples": [
+                "Amplifying accident risks",
+                "Failure to mention nuclear energy benefits",
+                "Unscientific comparisons"
+              ],
+              "impact": "Forming negative public opinion without a scientific basis"
+            },
+            {
+              "title": "Social Media",
+              "description": "Rapid spread of misinformation",
+              "examples": [
+                "Misleading images and clips",
+                "Claims without sources",
+                "Conspiracy theories"
+              ],
+              "impact": "Reinforcing unjustified fears"
+            }
+          ]
+        },
+        "importance": {
+          "title": "Why is correcting misconceptions important?",
+          "description": "Correct information leads to better decisions at all levels",
+          "items": [
+            {
+              "title": "Political Decisions",
+              "description": "Unjustified fears lead to inefficient energy policies"
+            },
+            {
+              "title": "Climate Crisis",
+              "description": "We need all clean energy sources to face climate change"
+            },
+            {
+              "title": "Sustainable Development",
+              "description": "Nuclear energy is essential to meet growing demand"
+            },
+            {
+              "title": "Energy Independence",
+              "description": "Reducing reliance on imported fossil fuels"
+            }
+          ]
+        },
+        "cta": {
+          "label": "Your Role:",
+          "text": "Share correct information with those around you and contribute to spreading scientific awareness"
+        }
+      }
+    },
+    "references": {
+      "title": "References and Sources",
+      "description": "Reliable scientific sources we relied on in preparing this educational content",
+      "badge": "References",
+      "items": [
+        {
+          "name": "U.S. Department of Energy",
+          "visibleName": "U.S. Department of Energy",
+          "description": "The official source for information on nuclear energy and nuclear research in the United States"
+        },
+        {
+          "name": "International Atomic Energy Agency",
+          "visibleName": "International Atomic Energy Agency (IAEA)",
+          "description": "The leading international organization for peaceful nuclear cooperation and nuclear safety"
+        },
+        {
+          "name": "Nuclear Threat Initiative",
+          "visibleName": "Nuclear Threat Initiative (NTI)",
+          "description": "A non-profit organization working to reduce nuclear threats and enhance global security"
+        },
+        {
+          "name": "PBS NewsHour",
+          "visibleName": "PBS NewsHour",
+          "description": "Reliable and in-depth news coverage of nuclear and scientific issues"
+        },
+        {
+          "name": "World Nuclear Association",
+          "visibleName": "World Nuclear Association",
+          "description": "The leading international organization representing the global nuclear energy industry"
+        }
+      ],
+      "note": {
+        "title": "Note on Sources",
+        "text": "All information provided on this site is based on internationally recognized reliable scientific sources. We encourage readers to refer to these sources to dive deeper into understanding nuclear energy and the difference between its peaceful and military uses."
+      }
+    },
+    "challenges": {
+      "badge": "Challenges",
+      "title": "Are you ready ?",
+      "description": "Overcome challenges and apply what you have learned in understanding nuclear interactions, and correctly distinguish between facts and myths."
+    }
+  },
+  "challenges": {
+    "badge": "Challenges",
+    "title": "Are you ready for the challenge?",
+    "description": "Move through five sequential stages and prove that you can distinguish peaceful nuclear technology from nuclear weapons with confidence.",
+    "completion": "Congratulations! You have completed all challenges.",
+    "completionTag": "Completed",
+    "progress": {
+      "label": "Challenge progress"
+    },
+    "feedback": {
+      "correctAnswer": "Correct answer",
+      "incorrectAnswer": "Incorrect answer"
+    },
+    "stages": [
+      {
+        "key": "quiz",
+        "type": "quiz",
+        "title": "Quiz Stage",
+        "tag": "Question",
+        "route": "/comparison",
+        "prompt": "What is the main difference between a nuclear reactor and a nuclear bomb?",
+        "cta": "Check answer",
+        "answer": "controlled",
+        "options": [
+          {
+            "id": "same-way",
+            "label": "They both release energy in exactly the same way."
+          },
+          {
+            "id": "controlled",
+            "label": "A reactor releases energy in a controlled way, while a bomb releases it instantly and destructively."
+          },
+          {
+            "id": "radiation-only",
+            "label": "The difference is only the amount of radiation they produce."
+          },
+          {
+            "id": "no-uranium",
+            "label": "A reactor works without uranium, but a bomb does not."
+          }
+        ]
+      },
+      {
+        "key": "drag-drop",
+        "type": "dragDrop",
+        "title": "Drag & Drop Stage",
+        "tag": "Drag & Drop",
+        "route": "/radiation",
+        "prompt": "Arrange these energy sources from highest carbon emissions to lowest.",
+        "cta": "Verify order",
+        "answer": [
+          "coal",
+          "oil",
+          "gas",
+          "nuclear"
+        ],
+        "items": [
+          {
+            "id": "gas",
+            "label": "Natural gas"
+          },
+          {
+            "id": "nuclear",
+            "label": "Nuclear energy"
+          },
+          {
+            "id": "coal",
+            "label": "Coal"
+          },
+          {
+            "id": "oil",
+            "label": "Oil"
+          }
+        ]
+      },
+      {
+        "key": "matching",
+        "type": "matching",
+        "title": "Matching Stage",
+        "tag": "Matching",
+        "route": "/disasters",
+        "prompt": "Match each nuclear case to what actually happened.",
+        "cta": "Validate matches",
+        "left": [
+          {
+            "id": "chernobyl",
+            "label": "Chernobyl"
+          },
+          {
+            "id": "fukushima",
+            "label": "Fukushima"
+          },
+          {
+            "id": "modern",
+            "label": "Modern reactor safety"
+          }
+        ],
+        "right": [
+          {
+            "id": "flawed-test",
+            "label": "A steam explosion followed a badly managed safety test."
+          },
+          {
+            "id": "tsunami",
+            "label": "Hydrogen explosions happened after a tsunami disabled cooling."
+          },
+          {
+            "id": "multiple-barriers",
+            "label": "Automatic shutdown and layered barriers are designed to contain risk."
+          }
+        ],
+        "answer": {
+          "chernobyl": "flawed-test",
+          "fukushima": "tsunami",
+          "modern": "multiple-barriers"
+        }
+      },
+      {
+        "key": "cards",
+        "type": "cards",
+        "title": "Cards Stage",
+        "tag": "Cards",
+        "route": "/radiation",
+        "prompt": "Select every card that describes beneficial, controlled uses of nuclear radiation.",
+        "cta": "Check cards",
+        "cards": [
+          {
+            "id": "medical-imaging",
+            "title": "Medical imaging",
+            "description": "Radioisotopes can help doctors diagnose disease with precision."
+          },
+          {
+            "id": "cancer-therapy",
+            "title": "Cancer therapy",
+            "description": "Targeted radiation can destroy tumor cells under strict medical control."
+          },
+          {
+            "id": "blast-wave",
+            "title": "Explosive blast wave",
+            "description": "Energy is released instantly to maximize destruction."
+          },
+          {
+            "id": "mass-destruction",
+            "title": "Mass destruction",
+            "description": "A chain reaction is accelerated for military devastation."
+          }
+        ],
+        "answer": [
+          "medical-imaging",
+          "cancer-therapy"
+        ]
+      },
+      {
+        "key": "final-boss",
+        "type": "finalBoss",
+        "title": "Final Boss",
+        "tag": "Einstein",
+        "route": "/react",
+        "prompt": "Use the given values, choose only what you need, build Einstein's equation correctly, then calculate the final energy.",
+        "cta": "Validate equation",
+        "slots": {
+          "reactants": 1,
+          "products": 2
+        },
+        "labels": {
+          "reactants": "Left side",
+          "products": "Right side",
+          "reset": "Reset equation"
+        },
+        "givens": [
+          {
+            "label": "m",
+            "value": "2"
+          },
+          {
+            "label": "c",
+            "value": "3"
+          },
+          {
+            "label": "t",
+            "value": "8"
+          },
+          {
+            "label": "p",
+            "value": "12"
+          },
+          {
+            "label": "n",
+            "value": "5"
+          }
+        ],
+        "result": {
+          "label": "Given values",
+          "placeholder": "Enter the result of E",
+          "answer": "18"
+        },
+        "bank": [
+          {
+            "id": "m",
+            "label": "m"
+          },
+          {
+            "id": "c2",
+            "label": "c2"
+          },
+          {
+            "id": "c",
+            "label": "c"
+          },
+          {
+            "id": "n",
+            "label": "n"
+          },
+          {
+            "id": "p",
+            "label": "p"
+          },
+          {
+            "id": "t",
+            "label": "t"
+          }
+        ],
+        "answer": {
+          "reactants": [
+            "e"
+          ],
+          "products": [
+            "m",
+            "c2"
+          ]
+        }
+      }
+    ]
+  }
+}

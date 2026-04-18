@@ -1,0 +1,97 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+    * {
+        @apply border-(--border) outline-(--ring)/50;
+    }
+
+    body {
+        @apply bg-(--background) text-(--foreground);
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .dark {
+        color-scheme: dark;
+    }
+}
+
+@layer components {
+    .rowFlex {
+        @apply flex items-center;
+    }
+    .betweenFlex {
+        @apply flex justify-between items-center;
+    }
+    .colFlex {
+        @apply flex flex-col;
+    }
+    .centerFlex {
+        @apply flex justify-center items-center;
+    }
+    .overlay {
+        @apply fixed w-screen h-screen z-10 left-0 top-0
+    }
+    .pageClass {
+        @apply flex flex-col items-center gap-18 w-full pt-[55px]
+    }
+    .componentsClass {
+        @apply flex flex-col mx-auto container px-6 gap-16
+    }
+    .stepWrapperClass {
+        @apply flex flex-col w-full gap-7
+    }
+    .fade {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        will-change: opacity, transform;
+    }
+    .fade-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .fader {
+        opacity: 0;
+        animation: fadeIn 0.8s ease-out forwards;
+    }
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--nuclear-dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--nuclear-cyan);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--nuclear-cyan-glow);
+}
+
+
+::selection {
+    background: var(--nuclear-cyan);
+    color: white;
+}
+
