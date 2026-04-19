@@ -21,7 +21,7 @@ export function SectionCard({ href, icon: Icon, color, gradient, title, descript
         : "text-nuclear-orange group-hover:shadow-[0_0_30px_var(--nuclear-orange)]"
 
     return (
-        <Link href={href} className={`relative colFlex gap-4 overflow-hidden rounded-2xl h-fit border border-border/50 bg-linear-to-br ${gradient} backdrop-blur-sm p-6 h-fit transition-all duration-300 group-hover:border-(--text-nuclear-colorful)/50 hover:scale-105 hover:-translate-y-0.5 group`}
+        <Link href={href} className={`relative colFlex gap-4 overflow-hidden rounded-2xl h-fit group-hover:border bg-linear-to-br ${gradient} backdrop-blur-sm p-6 h-fit transition-all duration-300 group-hover:border-(--text-nuclear-colorful)/50 hover:scale-105 hover:-translate-y-0.5 group`}
             style={{ '--text-nuclear-colorful': `var(--nuclear-${color})` } as React.CSSProperties}
         >
             {/* Icon */}

@@ -1,6 +1,6 @@
 
 import { Tv } from "lucide-react"
-import { SectionShell } from "@/components/shared/SectionShell"
+import { SectionShell } from "@/features/media/components/SectionShell"
 import { SectionIntro } from "@/components/shared/SectionIntro"
 import { ContentSection } from "@/components/shared/ContentSection"
 import type { MediaImportanceItem } from "./components/shared/types"

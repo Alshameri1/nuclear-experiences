@@ -22,7 +22,7 @@ export function StabilityMeter({ value, isUnstable }: StabilityMeterProps) {
                 </span>
             </div>
 
-            <div className="h-3 bg-nuclear-dark rounded-full overflow-hidden border border-border">
+            <div className="h-3 bg-nuclear-dark rounded-full overflow-hidden">
                 <motion.div
                     className={`h-full rounded-full transition-colors duration-300 ${
                         value > 70

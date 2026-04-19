@@ -10,7 +10,7 @@ export function TemperatureGauge({ temperature, isUnstable }: TemperatureGaugePr
     const t = useTranslations("pages.reaction.truth.reactorSimulation.metrics")
 
     return (
-        <div className="relative w-16 h-48 bg-nuclear-dark rounded-lg border border-border overflow-hidden">
+        <div className="relative w-16 h-48 bg-nuclear-dark rounded-lg overflow-hidden">
             {[0, 25, 50, 75, 100].map((mark) => (
                 <div
                     key={mark}

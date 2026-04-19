@@ -8,7 +8,7 @@ export default function MetricsPanel({isUnstable, temperature}: {isUnstable: boo
     return (
         <div className="order-3 flex flex-col gap-8">
             <div className="glass-dark rounded-xl p-6 flex flex-col gap-6">
-                <h3 className="text-lg font-semibold text-nuclear-cyan border-b border-border pb-2">
+                <h3 className="text-lg font-semibold text-nuclear-cyan pb-2">
                     {t("metrics.title")}
                 </h3>
                 <div className="flex justify-center">

@@ -2,9 +2,9 @@
   "shared": {
     "nav": {
       "home": "Home",
-      "disasters": "Nuclear disasters",
-      "react": "Reactions",
-      "radiation": "Radiation",
+      "disasters": "Myth 1",
+      "react": "Myth 2",
+      "radiation": "Myth 3",
       "comparison": "Comparison",
       "media": "Media",
       "challenges": "Challenges",

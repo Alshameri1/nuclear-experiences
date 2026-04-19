@@ -1,8 +1,7 @@
 import MythTruthTag from '@/components/shared/MythTruthTag'
 import { MythTruthWrapper } from '@/components/shared/MythTruthWrapper'
 import { cn } from '@/lib/utils'
-import Image from 'next/image'
-import React from 'react'
+
 
 type Props = {
     type: 'myth' | 'truth'
@@ -28,7 +27,7 @@ export default function MythCard({ type, explanation, tag, description, src, alt
                 <MythTruthTag label={tag} type={type} absolute={false} />
             </header>
             <main className='w-full h-[200px] sm:h-[240px] md:h-[272px]'>
-                <Image
+                <img
                     src={src}
                     width={400}
                     height={272}

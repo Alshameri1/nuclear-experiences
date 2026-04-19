@@ -52,7 +52,7 @@ export function MisconceptionItem({
             exit={{ height: 0, opacity: 0 }}
             className="overflow-hidden"
           >
-            <div className="px-6 pb-6 pt-2 border-t border-border/50">
+            <div className="px-6 pb-6 pt-2">
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="glass-cyan rounded-xl p-4 colFlex gap-2">
                   <div className="flex items-center gap-2">

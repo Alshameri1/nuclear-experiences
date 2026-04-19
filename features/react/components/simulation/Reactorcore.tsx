@@ -166,7 +166,7 @@ export function ReactorCore({ state }: ReactorCoreProps) {
             </motion.div>
 
             {/* Base */}
-            <div className="w-72 md:w-88 h-4 bg-nuclear-surface rounded-b-lg mx-auto border-x-2 border-b-2 border-border" />
+            <div className="w-72 md:w-88 h-4 bg-nuclear-surface rounded-b-lg mx-auto" />
         </div>
     )
 }

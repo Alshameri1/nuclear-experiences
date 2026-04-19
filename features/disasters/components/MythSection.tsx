@@ -36,7 +36,7 @@ export async function MythSection() {
                             </article>
                             <div className="rowFlex gap-3 w-full">
                                 {ele.image.map((image, index) => (
-                                    <Image key={index} src={image} alt="chernobyl" width={317} height={124} className="w-full max-w-[317px] max-h-[124px] rounded-xl object-cover object-center" loading="eager" />
+                                    <img key={index} src={image} alt="chernobyl" width={317} height={124} className="w-full max-w-[317px] max-h-[124px] rounded-xl object-cover object-center" loading="eager" />
                                 ))}
                             </div>
                             <InfoBar tip={ele.tip} type="myth" />

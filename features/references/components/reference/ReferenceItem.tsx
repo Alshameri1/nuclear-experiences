@@ -25,7 +25,7 @@ export function ReferenceItem({ item, index }: ReferenceItemProps) {
       variants={cardVariants}
     >
       <motion.div
-        className={`relative overflow-hidden rounded-2xl border border-border/50 bg-card/50 backdrop-blur-sm p-6 h-full transition-all duration-300 ${colors.border}`}
+        className={`relative overflow-hidden rounded-2xl bg-card/50 backdrop-blur-sm p-6 h-full transition-all duration-300 ${colors.border}`}
         whileHover={{ y: -5, scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
       >
@@ -51,9 +51,9 @@ export function ReferenceItem({ item, index }: ReferenceItemProps) {
             </div>
           </div>
 
-          <div className="border-t border-border/50 pt-4">
-            <CitationLink href={visual.href} className={`text-sm font-medium ${colors.text}`} />
-          </div>
+        
+          <CitationLink href={visual.href} className={`text-sm font-medium ${colors.text}`} />
+          
         </div>
       </motion.div>
     </motion.a>
