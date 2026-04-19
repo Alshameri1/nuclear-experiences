@@ -349,6 +349,17 @@
           "keyPoint": {
             "title": "Key Point",
             "description": "The fundamental difference between a reactor and a bomb lies in the speed of reaction and control: a reactor slows down and controls the reaction to produce sustainable heat, while a bomb accelerates the reaction explosively within fractions of a second."
+          },
+          "visuals": {
+            "chain": {
+              "gen": "Generation 1 → 2 → 4 → 8 ...",
+              "type": "Exponential Doubling"
+            },
+            "critical": {
+              "sub": { "title": "Subcritical", "desc": "Reaction stops" },
+              "main": { "title": "Critical", "desc": "Stable reactor" },
+              "super": { "title": "Supercritical", "desc": "Nuclear bomb" }
+            }
           }
         }
       }

@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl"
 
 // Critical Mass Visualization
 export function CriticalMassVisualization({ isAnimating }: { isAnimating: boolean }) {
-    const t = useTranslations("pages.science.visuals.critical")
+    const t = useTranslations("pages.reaction.truth.einsteinExamples.visuals.critical")
     return (
         <div className="absolute inset-0 flex items-center justify-center">
             <div className="flex items-end gap-8">

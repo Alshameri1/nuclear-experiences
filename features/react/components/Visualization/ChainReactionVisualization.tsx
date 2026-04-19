@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl"
 
 // Chain Reaction Visualization
 export function ChainReactionVisualization({ isAnimating }: { isAnimating: boolean }) {
-    const t = useTranslations("pages.science.visuals.chain")
+    const t = useTranslations("pages.reaction.truth.einsteinExamples.visuals.chain")
     const generations = [
         [{ x: 0, y: 0 }],
         [{ x: -40, y: -30 }, { x: 40, y: -30 }],
