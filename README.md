@@ -56,4 +56,4 @@ While both nuclear weapons and nuclear reactors rely on atomic energy, their goa
 
 ---
 
-⭐ If you like this project, consider giving it a star on GitHub!
+⭐ If you like this project, consider giving it a star on GitHub! 🚀
